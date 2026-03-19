@@ -1,0 +1,16 @@
+name: HardModeEasyDamage
+version: 0.1.0
+main: dev.enzomescall.hardmodeeasydamage.HardModeEasyDamagePlugin
+api-version: '1.21'
+author: Enzo / Pascal
+website: https://github.com/enzomescall
+commands:
+  hardmodeeasydamage:
+    description: Reload the plugin config
+    usage: /hardmodeeasydamage reload
+    permission: hardmodeeasydamage.admin
+    aliases: [hmed]
+permissions:
+  hardmodeeasydamage.admin:
+    description: Allows reloading the plugin config
+    default: op

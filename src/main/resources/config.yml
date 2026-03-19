@@ -1,0 +1,9 @@
+# Multiplier applied to hostile mob damage dealt to players.
+# 0.5 is a good starting point if you want hard mechanics with much softer combat.
+damage-multiplier: 0.5
+
+# If true, the multiplier only applies while the server difficulty is HARD.
+only-when-hard: true
+
+# Entity types to ignore completely. Names must match Bukkit entity type names.
+ignored-entity-types: []
